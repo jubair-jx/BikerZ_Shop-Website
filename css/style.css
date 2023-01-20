@@ -1,0 +1,85 @@
+/*========= Google Fonts======== */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+/*========= Google Fonts======== */
+/*========== basic css========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+/*========== basic css========== */
+/*============= Header Part============== */
+.header_part {
+  height: 90vh;
+  width: 100%;
+  background-color: #264653;
+}
+.header_item {
+  margin-top: 20px;
+}
+.header_item .navbar-nav .nav-item .nav-link {
+  margin-right: 25px;
+  color: #fff;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+.header_item .btns {
+  padding: 8px 28px;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  background-color: #e76f51;
+}
+/*== Banner Part== */
+.banner_item {
+  color: #fff;
+}
+.banner_item .banner_txt p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.banner_item .banner_txt h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  color: #ffffff;
+}
+.banner_item .banner_txt h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #e0e0e0;
+}
+.banner_item .btns {
+  padding: 10px 40px;
+  border: 0;
+  background-color: #e76f51;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+/*== Banner Part== */
+/*============= Header Part============= */
+/*============= Feature Bike Part Start============= */
+.feat_part {
+  margin-top: 40px;
+}
+.cl {
+  width: 5% !important;
+  border: 2px solid #e76f51;
+}
+/*============= Feature Bike Part end============= */
